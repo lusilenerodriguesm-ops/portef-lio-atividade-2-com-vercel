@@ -1,13 +1,45 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfólio | Lusilene Moraesx</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Lusilene Moraes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="blob one"></div>
+    <div class="blob two"></div>
+
+    <header class="glass-panel">
+        <h3>Lusilene Rodrigues de Moraes</h3>
+        <nav>
+            <a href="#sobre">Sobre mim</a>
+            <a href="#projetos">Projetos</a>
+            <button id="theme-toggle"><i class="fas fa-moon"></i></button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre" class="glass-panel">
+            <img src="perfil.jpeg" alt="Herden Perfil">
+            <h1>Olá, eu sou Lusilene Rodrigues de Moraes</h1>
+            <p style="margin-top: 10px;">Sou um profissional em formação, estudante de Tecnologia em Sistemas para Internet, esse é o meu primeiro projeto programação Web.</p>
+        </section>
+
+        <section id="projetos">
+            <h2 style="text-align: center; margin-bottom: 20px;">Meus Projetos</h2>
+            <div class="cards-wrapper" id="render-projetos"></div>
+        </section>
+    </main>
+
+    <footer class="glass-panel">
+        <p>&copy; 2026 Criado por Lusilene Rodrigues de Moraes </p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
 </html>
